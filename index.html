@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pushster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="Images/Logo.png" id="logo">
+            </a>
+            <div class="list-items" id="navLinks">
+                <i class="fa fa-times" onclick="Hide()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="gallery/index.html">GALLERY</a></li>
+                    <li><a href="Login/index.html">LOG IN</a></li>
+                    <li><a href="Enquiry/from.html">ENQUIRE</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#footer">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="Show()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>SHAPE OF YOU</h1>
+            <p>C'mon now follow my lead!</p>
+            <a class="button" href="Registration/index.html">JOIN US</a>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="about">
+        <h1 class="heading">ABOUT US</h1>
+        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ut.</p>
+        <div class="row">
+            <div id="column">
+                <h3>OUR STORY</h3>
+                <p>
+                    Gym and Fitness was founded in 2002 as a family owned and operated business.
+                    The Gym and Fitness founders didn't want it to be just another gym equipment
+                    retailer - they wanted to be the best in the industry and set their minds to
+                    doing so!
+                </p>
+            </div>
+            <div id="column">
+                <h3>WHAT WE DO</h3>
+                <p>
+                    We want to help you live a fit and healthy lifestyle! We do this by helping you find
+                    the most suitable equipment for your home gym, studio or commercial gym, keeping your
+                    budget, lifestyle and fitness goals in mind.
+                </p>
+            </div>
+            <div id="column">
+                <h3>CULTURE</h3>
+                <p>
+                    We believe in encouraging, supporting, challenging,
+                    learning and growing to be the best. At Gym and Fitness, every morsel of feedback is a nugget of
+                    shiny gold because it gives us the opportunity to provide the best customer experience.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <section class="team">
+        <h1 class="heading"> MEET OUR TEAM</h1>
+        <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ut.</p>
+        <div id="trainers">
+            <ul>
+                <li id="tariner">
+                    <img src="Images/Chloe.png">
+                    <p id="layer">Chloe Lockwood</h3>
+                </li>
+                <li id="tariner">
+                    <img src="Images/Dani.png">
+                    <p id="layer">Kira Lee Orsag</h3>
+                </li>
+                <li id="tariner">
+                    <img src="Images/Rick.png">
+                    <p id="layer">Rick Andreson</h3>
+                </li>
+                <li id="tariner">
+                    <img src="Images/Caroline.png">
+                    <p id="layer">Caroline Rose</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="services">
+        <h1 class="heading" style="color: aliceblue;">SERVICES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ut.</p>
+        <div id="service">
+            <ul>
+                <li id="serv"><img src="Images/Pool.jpg"><h3 id="activity">Pool Club</h3></li>
+                <li id="serv"><img src="Images/Aerobics.jpg"><h3 id="activity">Aerobics Classes</h3></li>
+                <li id="serv"><img src="Images/Golf.jpg"><h3 id="activity">Golf Course</h3></li>
+                <li id="serv"><img src="Images/Jogging.jpg"><h3 id="activity">Jogging Tracks</h3></li>
+            </ul>
+            <ul><li id="serv_below"><img src="Images/Gym.jpg"><h3 id="activity">Gymnasium</h3></li></ul>
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="testimonials">
+        <h1 class="heading" style="text-align: center;">TESTIMONIALS</h1>
+        <p id="under">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ut.</p>
+        <div id="row-test">
+            <div id="column-test">
+                <img src="Images/Momina.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae,
+                        adipisci fuga quidem, quo ipsa possimus consectetur aut amet distinctio cupiditate,
+                        nobis quam voluptatibus blanditiis.</p>
+                    <h3>Momina Mustehsan</h3>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star-o" id="stars"></i>
+                </div>
+            </div>
+            <div id="column-test">
+                <img src="Images/Sarah.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vitae,
+                        adipisci fuga quidem, quo ipsa possimus consectetur aut amet distinctio cupiditate,
+                        nobis quam voluptatibus blanditiis.
+                    </p>
+                    <h3>Sarah Cornor</h3>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star" id="stars"></i>
+                    <i class="fa fa-star-half-o" id="stars"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="cta">
+        <h1 class="heading">ENROLL FOR OUR SERVICES</h1><br>
+        <a class="button" href="Registration/index.html">ENROLL NOW</a>
+    </section>
+    <hr>
+    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+    <footer>
+        <section id="footer">
+            <h1 class="heading" style="color: aliceblue;">CONTACT US</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                consectetur deleniti atque eaque exercitationem, <br>
+                tempore reiciendis corporis similique! <br>
+                temporibus illum cum a.</p>
+                <div id="icons">
+                    <a href="https://www.facebook.com/ankit.daniel.96/"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/ankit_daniel/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ankit-kumar-80666b208/"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <p class="end"><i class="fa fa-copyright"></i>No Rights Reserved - Ankit Kumar</p>
+            </section>
+    </footer>
+    <!-- ------------------------------------------------------------------------------------------------------------------------- -- -->
+    <script>
+        // for toggle
+        var navLinks = document.getElementById("navLinks");
+        function Show() {
+            navLinks.style.right = "0";
+            navLinks.style.display = "block";
+        }
+        function Hide() {
+            navLinks.style.right = "-200px";
+            navLinks.style.display = "none";
+        }
+    </script>
+</body>
+</html>
